@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color: rgb(48, 37, 37);
+}
+
+.nav {
+    background-color: rgba(136, 66, 66, 0.6);
+    /* box-shadow: 0px 10px  5px rgba(0,0,0,0.6); */
+    /* box-shadow:  0 0 10px 5px rgba(0,0,0,0.6); */
+    /* box-shadow:  0 0 10px  rgba(0,0,0,0.6); */
+    /* box-shadow: inset  10px -10px 25px rgba(0,0,0,0.6); */
+    padding: 5%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-list li {
+    padding-right: 1.5%;
+}
+
+.nav-list a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.nav-list a:visited {
+    color: rgb(204, 204, 233);
+}
+
+.img {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+    align-items: center;
+}
+
+.background {
+    background-color: rgb(211, 205, 178)
+    /* background-image: color rgba(164, 167, 7, 0.932);  */
+    /* box-shadow: inset 10px -10px 25px rgba(150, 116, 148, 0.6); */
+    /* linear-gradient(rgba(172,122,151,0.6),rgba(14, 138, 117, 0.6)); */
+}
+
+
+.profile-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30%;
+    padding-bottom: 10%;
+}
+
+.description {
+    padding-bottom: 40%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.title {
+    color: rgb(48, 37, 37);
+}
+
+.name {
+    padding-bottom: 30%;
+}
+
+.developer {
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.main-description {
+    /* padding-left: 10%; */
+    padding-bottom: 30%;
+    text-align: center;
+    color: rgb(48, 37, 37);
+}
+
+.garden {
+    width: 50%;
+    height: 50%;
+    padding-bottom: 5%;
+}
+
+.garden-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.garden-title {
+    text-align: center;
+}
+
+.projects-title {
+    padding: 5%;
+}
+
+.garden .description {
+    border-bottom: 5%;
+}
+
+.links {
+    padding-bottom: 10%;
+}
+
+.dog-site-img {
+    width: 50%;
+    height: 50%;
+    padding-bottom: 5%;
+}
+
+.dog-adoption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dog-adoption-description {
+    border-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.resume {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    padding-bottom: 30%;
+}
+
+.resume-details {
+    padding-top: 5%;
+}
+
+.resume-title {
+    padding-bottom: 5%;
+}
+
+.objective {
+    padding-bottom: 10%;
+    text-align: left;
+}
+
+.dental-dets li {
+    text-align: left;
+    padding-left: 5%;
+    list-style: none;
+    padding-bottom: 3%;
+}
+
+.main-cv h3 h4 p {
+    padding-bottom: 3%;
+}
+.resume h3{
+    padding-bottom: 3%;
+}
+.resume-details{
+    padding-bottom: 5%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {}
